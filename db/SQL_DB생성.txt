@@ -1,0 +1,17 @@
+CREATE DATABASE dashboard_db
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+USE dashboard_db;
+
+CREATE TABLE sales (
+id INT AUTO_INCREMENT PRIMARY KEY,
+order_date DATE NOT NULL,
+product_name VARCHAR(100) NOT NULL,
+category VARCHAR(50) NOT NULL,
+quantity INT NOT NULL,
+price DECIMAL(10,2) NOT NULL,
+region VARCHAR(50) NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);

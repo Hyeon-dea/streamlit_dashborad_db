@@ -1,0 +1,11 @@
+folium==0.20.0
+matplotlib==3.10.8
+numpy==2.4.3
+openpyxl==3.1.5
+pandas==2.3.3
+plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1772628722729/work
+PyMySQL @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pymysql_1756086805/work
+seaborn==0.13.2
+SQLAlchemy @ file:///D:/bld/bld/rattler-build_sqlalchemy_1772644929/work
+streamlit==1.55.0
+streamlit-folium==0.27.0
